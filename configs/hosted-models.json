@@ -1,0 +1,150 @@
+{
+  "default": "preserve original CNN pilot",
+  "models": [
+    {
+      "label": "RGB CNN v2 — 1000 training steps",
+      "version": "b21b797a2c43f3a45879cd6778be4cd81600f2e7",
+      "checkpoint": {
+        "url": "https://raw.githubusercontent.com/Ahmdullah16/Mini-Project-ML-Lab-RSSR/b21b797a2c43f3a45879cd6778be4cd81600f2e7/artifacts/rgb-cnn-v2.pt",
+        "sha256": "703b11deed506600f4f9504deb1e1fa662107db05086ce40be5179ae8cfab2af",
+        "max_bytes": 262144
+      },
+      "sample": {
+        "url": "https://raw.githubusercontent.com/Ahmdullah16/Mini-Project-ML-Lab-RSSR/b94966013b046b7f2b8e542d6161786d67e750c0/artifacts/naip-training-lr.png",
+        "sha256": "b74f4daaf333b42349d3d2b61ec610808cf1b1c4a48ed6c70e55ab6b6eea9ca6",
+        "max_bytes": 65536,
+        "acquisition_time": "2021-09-17",
+        "sensor": "NAIP aerial RGB",
+        "source": "OpenSR ROI_00006 training scene; synthetic x2 LR, uint8 display quantization",
+        "license": "NAIP public domain; retain USDA/OpenSR attribution"
+      },
+      "limitations": "Frozen NAIP synthetic-x2 model evaluated on one held-out aerial scene. Real satellite generalization and physical calibration remain unvalidated. RGB CNN and hybrid were effectively tied; generated detail is not verified ground truth.",
+      "training_checkpoint_sha256": "b2091734910e077443cc51dd98014925d22f007d0604717953005a53280b5991"
+    },
+    {
+      "label": "RGB CNN–attention–Transformer hybrid v2 — 1000 training steps",
+      "version": "b21b797a2c43f3a45879cd6778be4cd81600f2e7",
+      "checkpoint": {
+        "url": "https://raw.githubusercontent.com/Ahmdullah16/Mini-Project-ML-Lab-RSSR/b21b797a2c43f3a45879cd6778be4cd81600f2e7/artifacts/rgb-hybrid-v2.pt",
+        "sha256": "5cb8b9f45bc449bc6ff7ba4bf151a5ef1c70c0556d13c3b9f1c625995d7713f3",
+        "max_bytes": 262144
+      },
+      "sample": {
+        "url": "https://raw.githubusercontent.com/Ahmdullah16/Mini-Project-ML-Lab-RSSR/b94966013b046b7f2b8e542d6161786d67e750c0/artifacts/naip-training-lr.png",
+        "sha256": "b74f4daaf333b42349d3d2b61ec610808cf1b1c4a48ed6c70e55ab6b6eea9ca6",
+        "max_bytes": 65536,
+        "acquisition_time": "2021-09-17",
+        "sensor": "NAIP aerial RGB",
+        "source": "OpenSR ROI_00006 training scene; synthetic x2 LR, uint8 display quantization",
+        "license": "NAIP public domain; retain USDA/OpenSR attribution"
+      },
+      "limitations": "Frozen NAIP synthetic-x2 model evaluated on one held-out aerial scene. Real satellite generalization and physical calibration remain unvalidated. RGB CNN and hybrid were effectively tied; generated detail is not verified ground truth.",
+      "training_checkpoint_sha256": "f6a64bb62d6209224be9fc924b57ef5c989f6869e4c7b925f7d1773bd2a780fc"
+    },
+    {
+      "label": "M2 Attention RGB pilot — 100 training steps",
+      "architecture_id": "cat-v1/M2",
+      "version": "v0.3.0-rgb-pilots",
+      "checkpoint": {
+        "url": "https://github.com/Ahmdullah16/Mini-Project-ML-Lab-RSSR/releases/download/v0.3.0-rgb-pilots/m2-rgb-pilot-v1.pt",
+        "sha256": "d9b819c4759e87fb8c2197f2d6fe775777be955944b1931bd8c60f50d7b07ccb",
+        "max_bytes": 262144
+      },
+      "sample": {
+        "url": "https://raw.githubusercontent.com/Ahmdullah16/Mini-Project-ML-Lab-RSSR/b94966013b046b7f2b8e542d6161786d67e750c0/artifacts/naip-training-lr.png",
+        "sha256": "b74f4daaf333b42349d3d2b61ec610808cf1b1c4a48ed6c70e55ab6b6eea9ca6",
+        "max_bytes": 65536,
+        "acquisition_time": "2021-09-17",
+        "sensor": "NAIP aerial RGB",
+        "source": "OpenSR ROI_00006 training scene; synthetic x2 LR, uint8 display quantization",
+        "license": "NAIP public domain; retain USDA/OpenSR attribution"
+      },
+      "limitations": "Genuine 100-step native2 RGB compatibility pilot, seed17 selected in advance. Reused training/validation tiles; no held-out evaluation. Not matched-budget or geographically validated research. Higher scales use cascades, not independently trained models.",
+      "training_checkpoint_sha256": "a25b60db652829259cf0dd247424c3146290bd2fe42591ee76e0dbcc0802ba8c"
+    },
+    {
+      "label": "M3 Transformer RGB pilot — 100 training steps",
+      "architecture_id": "cat-v1/M3",
+      "version": "v0.3.0-rgb-pilots",
+      "checkpoint": {
+        "url": "https://github.com/Ahmdullah16/Mini-Project-ML-Lab-RSSR/releases/download/v0.3.0-rgb-pilots/m3-rgb-pilot-v1.pt",
+        "sha256": "cdd099b8bb292e3722585f8f341f510296956e1ed8306ea0e219b5a9c02852fc",
+        "max_bytes": 262144
+      },
+      "sample": {
+        "url": "https://raw.githubusercontent.com/Ahmdullah16/Mini-Project-ML-Lab-RSSR/b94966013b046b7f2b8e542d6161786d67e750c0/artifacts/naip-training-lr.png",
+        "sha256": "b74f4daaf333b42349d3d2b61ec610808cf1b1c4a48ed6c70e55ab6b6eea9ca6",
+        "max_bytes": 65536,
+        "acquisition_time": "2021-09-17",
+        "sensor": "NAIP aerial RGB",
+        "source": "OpenSR ROI_00006 training scene; synthetic x2 LR, uint8 display quantization",
+        "license": "NAIP public domain; retain USDA/OpenSR attribution"
+      },
+      "limitations": "Genuine 100-step native2 RGB compatibility pilot, seed17 selected in advance. Reused training/validation tiles; no held-out evaluation. Not matched-budget or geographically validated research. Higher scales use cascades, not independently trained models.",
+      "training_checkpoint_sha256": "0271e2b263216499056ce96c2abc56979798ed547c3fd286a13bf9255d00e52a"
+    },
+    {
+      "label": "M4 CNN + Attention RGB pilot — 100 training steps",
+      "architecture_id": "cat-v1/M4",
+      "version": "v0.3.0-rgb-pilots",
+      "checkpoint": {
+        "url": "https://github.com/Ahmdullah16/Mini-Project-ML-Lab-RSSR/releases/download/v0.3.0-rgb-pilots/m4-rgb-pilot-v1.pt",
+        "sha256": "0346073d5299ecb708c83a5cbe2e8f0d0f98430ee5c21466c74437bc56909940",
+        "max_bytes": 262144
+      },
+      "sample": {
+        "url": "https://raw.githubusercontent.com/Ahmdullah16/Mini-Project-ML-Lab-RSSR/b94966013b046b7f2b8e542d6161786d67e750c0/artifacts/naip-training-lr.png",
+        "sha256": "b74f4daaf333b42349d3d2b61ec610808cf1b1c4a48ed6c70e55ab6b6eea9ca6",
+        "max_bytes": 65536,
+        "acquisition_time": "2021-09-17",
+        "sensor": "NAIP aerial RGB",
+        "source": "OpenSR ROI_00006 training scene; synthetic x2 LR, uint8 display quantization",
+        "license": "NAIP public domain; retain USDA/OpenSR attribution"
+      },
+      "limitations": "Genuine 100-step native2 RGB compatibility pilot, seed17 selected in advance. Reused training/validation tiles; no held-out evaluation. Not matched-budget or geographically validated research. Higher scales use cascades, not independently trained models.",
+      "training_checkpoint_sha256": "a0d1746612f410abe067247e768e45a5d6e67fe06536056034152dad65969900"
+    },
+    {
+      "label": "M5 CNN + Transformer RGB pilot — 100 training steps",
+      "architecture_id": "cat-v1/M5",
+      "version": "v0.3.0-rgb-pilots",
+      "checkpoint": {
+        "url": "https://github.com/Ahmdullah16/Mini-Project-ML-Lab-RSSR/releases/download/v0.3.0-rgb-pilots/m5-rgb-pilot-v1.pt",
+        "sha256": "dde37226d8b518826dbadc6801a64f7725d10bd43feef068058ee56bc0804c91",
+        "max_bytes": 262144
+      },
+      "sample": {
+        "url": "https://raw.githubusercontent.com/Ahmdullah16/Mini-Project-ML-Lab-RSSR/b94966013b046b7f2b8e542d6161786d67e750c0/artifacts/naip-training-lr.png",
+        "sha256": "b74f4daaf333b42349d3d2b61ec610808cf1b1c4a48ed6c70e55ab6b6eea9ca6",
+        "max_bytes": 65536,
+        "acquisition_time": "2021-09-17",
+        "sensor": "NAIP aerial RGB",
+        "source": "OpenSR ROI_00006 training scene; synthetic x2 LR, uint8 display quantization",
+        "license": "NAIP public domain; retain USDA/OpenSR attribution"
+      },
+      "limitations": "Genuine 100-step native2 RGB compatibility pilot, seed17 selected in advance. Reused training/validation tiles; no held-out evaluation. Not matched-budget or geographically validated research. Higher scales use cascades, not independently trained models.",
+      "training_checkpoint_sha256": "0d51af09289174402d55c89343e81f7e4cd62c72d58658b43e07b7673c0c1234"
+    },
+    {
+      "label": "M6 Attention + Transformer RGB pilot — 100 training steps",
+      "architecture_id": "cat-v1/M6",
+      "version": "v0.3.0-rgb-pilots",
+      "checkpoint": {
+        "url": "https://github.com/Ahmdullah16/Mini-Project-ML-Lab-RSSR/releases/download/v0.3.0-rgb-pilots/m6-rgb-pilot-v1.pt",
+        "sha256": "c82403255c495e62c20776ef2158a2a25d88513d1f9c67ecb388c025b0cdf3d0",
+        "max_bytes": 262144
+      },
+      "sample": {
+        "url": "https://raw.githubusercontent.com/Ahmdullah16/Mini-Project-ML-Lab-RSSR/b94966013b046b7f2b8e542d6161786d67e750c0/artifacts/naip-training-lr.png",
+        "sha256": "b74f4daaf333b42349d3d2b61ec610808cf1b1c4a48ed6c70e55ab6b6eea9ca6",
+        "max_bytes": 65536,
+        "acquisition_time": "2021-09-17",
+        "sensor": "NAIP aerial RGB",
+        "source": "OpenSR ROI_00006 training scene; synthetic x2 LR, uint8 display quantization",
+        "license": "NAIP public domain; retain USDA/OpenSR attribution"
+      },
+      "limitations": "Genuine 100-step native2 RGB compatibility pilot, seed17 selected in advance. Reused training/validation tiles; no held-out evaluation. Not matched-budget or geographically validated research. Higher scales use cascades, not independently trained models.",
+      "training_checkpoint_sha256": "2bc27dcf4569eba8174198fadad3a3bca8150d875c082310a1a6112d375a6d17"
+    }
+  ]
+}

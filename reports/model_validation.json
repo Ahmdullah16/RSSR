@@ -1,0 +1,511 @@
+{
+  "scope": "Tiny 2x3 RGB shape/finite-value engineering checks with real distinct pinned checkpoints; not image-quality validation.",
+  "cases": [
+    {
+      "model_id": "M1",
+      "checkpoint_sha256": "56656672c50c222105cc159738b63957dee84b1ef394106f6dc2c782a53d415e",
+      "scale": 2,
+      "output_shape": [
+        4,
+        6,
+        3
+      ],
+      "runtime_seconds": 0.0034658949999766264,
+      "status": "passed"
+    },
+    {
+      "model_id": "M1",
+      "checkpoint_sha256": "56656672c50c222105cc159738b63957dee84b1ef394106f6dc2c782a53d415e",
+      "scale": 4,
+      "output_shape": [
+        8,
+        12,
+        3
+      ],
+      "runtime_seconds": 0.0007937419999279882,
+      "status": "passed"
+    },
+    {
+      "model_id": "M1",
+      "checkpoint_sha256": "56656672c50c222105cc159738b63957dee84b1ef394106f6dc2c782a53d415e",
+      "scale": 8,
+      "output_shape": [
+        16,
+        24,
+        3
+      ],
+      "runtime_seconds": 0.001132410000082018,
+      "status": "passed"
+    },
+    {
+      "model_id": "M1",
+      "checkpoint_sha256": "56656672c50c222105cc159738b63957dee84b1ef394106f6dc2c782a53d415e",
+      "scale": 16,
+      "output_shape": [
+        32,
+        48,
+        3
+      ],
+      "runtime_seconds": 0.0014575290000493624,
+      "status": "passed"
+    },
+    {
+      "model_id": "M1",
+      "checkpoint_sha256": "56656672c50c222105cc159738b63957dee84b1ef394106f6dc2c782a53d415e",
+      "scale": 32,
+      "output_shape": [
+        64,
+        96,
+        3
+      ],
+      "runtime_seconds": 0.0057152330000462825,
+      "status": "passed"
+    },
+    {
+      "model_id": "M1",
+      "checkpoint_sha256": "56656672c50c222105cc159738b63957dee84b1ef394106f6dc2c782a53d415e",
+      "scale": 64,
+      "output_shape": [
+        128,
+        192,
+        3
+      ],
+      "runtime_seconds": 0.008033104999981333,
+      "status": "passed"
+    },
+    {
+      "model_id": "M2",
+      "checkpoint_sha256": "d9b819c4759e87fb8c2197f2d6fe775777be955944b1931bd8c60f50d7b07ccb",
+      "scale": 2,
+      "output_shape": [
+        4,
+        6,
+        3
+      ],
+      "runtime_seconds": 0.00203139099994587,
+      "status": "passed"
+    },
+    {
+      "model_id": "M2",
+      "checkpoint_sha256": "d9b819c4759e87fb8c2197f2d6fe775777be955944b1931bd8c60f50d7b07ccb",
+      "scale": 4,
+      "output_shape": [
+        8,
+        12,
+        3
+      ],
+      "runtime_seconds": 0.001924329999951624,
+      "status": "passed"
+    },
+    {
+      "model_id": "M2",
+      "checkpoint_sha256": "d9b819c4759e87fb8c2197f2d6fe775777be955944b1931bd8c60f50d7b07ccb",
+      "scale": 8,
+      "output_shape": [
+        16,
+        24,
+        3
+      ],
+      "runtime_seconds": 0.0018073240000830992,
+      "status": "passed"
+    },
+    {
+      "model_id": "M2",
+      "checkpoint_sha256": "d9b819c4759e87fb8c2197f2d6fe775777be955944b1931bd8c60f50d7b07ccb",
+      "scale": 16,
+      "output_shape": [
+        32,
+        48,
+        3
+      ],
+      "runtime_seconds": 0.0020957369999905495,
+      "status": "passed"
+    },
+    {
+      "model_id": "M2",
+      "checkpoint_sha256": "d9b819c4759e87fb8c2197f2d6fe775777be955944b1931bd8c60f50d7b07ccb",
+      "scale": 32,
+      "output_shape": [
+        64,
+        96,
+        3
+      ],
+      "runtime_seconds": 0.0032552689999647555,
+      "status": "passed"
+    },
+    {
+      "model_id": "M2",
+      "checkpoint_sha256": "d9b819c4759e87fb8c2197f2d6fe775777be955944b1931bd8c60f50d7b07ccb",
+      "scale": 64,
+      "output_shape": [
+        128,
+        192,
+        3
+      ],
+      "runtime_seconds": 0.006788536000044587,
+      "status": "passed"
+    },
+    {
+      "model_id": "M3",
+      "checkpoint_sha256": "cdd099b8bb292e3722585f8f341f510296956e1ed8306ea0e219b5a9c02852fc",
+      "scale": 2,
+      "output_shape": [
+        4,
+        6,
+        3
+      ],
+      "runtime_seconds": 0.004647439999985181,
+      "status": "passed"
+    },
+    {
+      "model_id": "M3",
+      "checkpoint_sha256": "cdd099b8bb292e3722585f8f341f510296956e1ed8306ea0e219b5a9c02852fc",
+      "scale": 4,
+      "output_shape": [
+        8,
+        12,
+        3
+      ],
+      "runtime_seconds": 0.0009523209999997562,
+      "status": "passed"
+    },
+    {
+      "model_id": "M3",
+      "checkpoint_sha256": "cdd099b8bb292e3722585f8f341f510296956e1ed8306ea0e219b5a9c02852fc",
+      "scale": 8,
+      "output_shape": [
+        16,
+        24,
+        3
+      ],
+      "runtime_seconds": 0.0012313299999959781,
+      "status": "passed"
+    },
+    {
+      "model_id": "M3",
+      "checkpoint_sha256": "cdd099b8bb292e3722585f8f341f510296956e1ed8306ea0e219b5a9c02852fc",
+      "scale": 16,
+      "output_shape": [
+        32,
+        48,
+        3
+      ],
+      "runtime_seconds": 0.002392493000002105,
+      "status": "passed"
+    },
+    {
+      "model_id": "M3",
+      "checkpoint_sha256": "cdd099b8bb292e3722585f8f341f510296956e1ed8306ea0e219b5a9c02852fc",
+      "scale": 32,
+      "output_shape": [
+        64,
+        96,
+        3
+      ],
+      "runtime_seconds": 0.00634433799996259,
+      "status": "passed"
+    },
+    {
+      "model_id": "M3",
+      "checkpoint_sha256": "cdd099b8bb292e3722585f8f341f510296956e1ed8306ea0e219b5a9c02852fc",
+      "scale": 64,
+      "output_shape": [
+        128,
+        192,
+        3
+      ],
+      "runtime_seconds": 0.014293917000031797,
+      "status": "passed"
+    },
+    {
+      "model_id": "M4",
+      "checkpoint_sha256": "0346073d5299ecb708c83a5cbe2e8f0d0f98430ee5c21466c74437bc56909940",
+      "scale": 2,
+      "output_shape": [
+        4,
+        6,
+        3
+      ],
+      "runtime_seconds": 0.0009280340000259457,
+      "status": "passed"
+    },
+    {
+      "model_id": "M4",
+      "checkpoint_sha256": "0346073d5299ecb708c83a5cbe2e8f0d0f98430ee5c21466c74437bc56909940",
+      "scale": 4,
+      "output_shape": [
+        8,
+        12,
+        3
+      ],
+      "runtime_seconds": 0.000994893999973101,
+      "status": "passed"
+    },
+    {
+      "model_id": "M4",
+      "checkpoint_sha256": "0346073d5299ecb708c83a5cbe2e8f0d0f98430ee5c21466c74437bc56909940",
+      "scale": 8,
+      "output_shape": [
+        16,
+        24,
+        3
+      ],
+      "runtime_seconds": 0.0015041990000099759,
+      "status": "passed"
+    },
+    {
+      "model_id": "M4",
+      "checkpoint_sha256": "0346073d5299ecb708c83a5cbe2e8f0d0f98430ee5c21466c74437bc56909940",
+      "scale": 16,
+      "output_shape": [
+        32,
+        48,
+        3
+      ],
+      "runtime_seconds": 0.0022064539999746557,
+      "status": "passed"
+    },
+    {
+      "model_id": "M4",
+      "checkpoint_sha256": "0346073d5299ecb708c83a5cbe2e8f0d0f98430ee5c21466c74437bc56909940",
+      "scale": 32,
+      "output_shape": [
+        64,
+        96,
+        3
+      ],
+      "runtime_seconds": 0.0035191050000094037,
+      "status": "passed"
+    },
+    {
+      "model_id": "M4",
+      "checkpoint_sha256": "0346073d5299ecb708c83a5cbe2e8f0d0f98430ee5c21466c74437bc56909940",
+      "scale": 64,
+      "output_shape": [
+        128,
+        192,
+        3
+      ],
+      "runtime_seconds": 0.012229807999915465,
+      "status": "passed"
+    },
+    {
+      "model_id": "M5",
+      "checkpoint_sha256": "dde37226d8b518826dbadc6801a64f7725d10bd43feef068058ee56bc0804c91",
+      "scale": 2,
+      "output_shape": [
+        4,
+        6,
+        3
+      ],
+      "runtime_seconds": 0.0013898670000571656,
+      "status": "passed"
+    },
+    {
+      "model_id": "M5",
+      "checkpoint_sha256": "dde37226d8b518826dbadc6801a64f7725d10bd43feef068058ee56bc0804c91",
+      "scale": 4,
+      "output_shape": [
+        8,
+        12,
+        3
+      ],
+      "runtime_seconds": 0.0013826269999981378,
+      "status": "passed"
+    },
+    {
+      "model_id": "M5",
+      "checkpoint_sha256": "dde37226d8b518826dbadc6801a64f7725d10bd43feef068058ee56bc0804c91",
+      "scale": 8,
+      "output_shape": [
+        16,
+        24,
+        3
+      ],
+      "runtime_seconds": 0.001758380999945075,
+      "status": "passed"
+    },
+    {
+      "model_id": "M5",
+      "checkpoint_sha256": "dde37226d8b518826dbadc6801a64f7725d10bd43feef068058ee56bc0804c91",
+      "scale": 16,
+      "output_shape": [
+        32,
+        48,
+        3
+      ],
+      "runtime_seconds": 0.0036774829999330905,
+      "status": "passed"
+    },
+    {
+      "model_id": "M5",
+      "checkpoint_sha256": "dde37226d8b518826dbadc6801a64f7725d10bd43feef068058ee56bc0804c91",
+      "scale": 32,
+      "output_shape": [
+        64,
+        96,
+        3
+      ],
+      "runtime_seconds": 0.004931206000037491,
+      "status": "passed"
+    },
+    {
+      "model_id": "M5",
+      "checkpoint_sha256": "dde37226d8b518826dbadc6801a64f7725d10bd43feef068058ee56bc0804c91",
+      "scale": 64,
+      "output_shape": [
+        128,
+        192,
+        3
+      ],
+      "runtime_seconds": 0.011946631999990132,
+      "status": "passed"
+    },
+    {
+      "model_id": "M6",
+      "checkpoint_sha256": "c82403255c495e62c20776ef2158a2a25d88513d1f9c67ecb388c025b0cdf3d0",
+      "scale": 2,
+      "output_shape": [
+        4,
+        6,
+        3
+      ],
+      "runtime_seconds": 0.0022281860000248344,
+      "status": "passed"
+    },
+    {
+      "model_id": "M6",
+      "checkpoint_sha256": "c82403255c495e62c20776ef2158a2a25d88513d1f9c67ecb388c025b0cdf3d0",
+      "scale": 4,
+      "output_shape": [
+        8,
+        12,
+        3
+      ],
+      "runtime_seconds": 0.001460604000044441,
+      "status": "passed"
+    },
+    {
+      "model_id": "M6",
+      "checkpoint_sha256": "c82403255c495e62c20776ef2158a2a25d88513d1f9c67ecb388c025b0cdf3d0",
+      "scale": 8,
+      "output_shape": [
+        16,
+        24,
+        3
+      ],
+      "runtime_seconds": 0.0023949769999944692,
+      "status": "passed"
+    },
+    {
+      "model_id": "M6",
+      "checkpoint_sha256": "c82403255c495e62c20776ef2158a2a25d88513d1f9c67ecb388c025b0cdf3d0",
+      "scale": 16,
+      "output_shape": [
+        32,
+        48,
+        3
+      ],
+      "runtime_seconds": 0.0030924039999717934,
+      "status": "passed"
+    },
+    {
+      "model_id": "M6",
+      "checkpoint_sha256": "c82403255c495e62c20776ef2158a2a25d88513d1f9c67ecb388c025b0cdf3d0",
+      "scale": 32,
+      "output_shape": [
+        64,
+        96,
+        3
+      ],
+      "runtime_seconds": 0.004707779999989725,
+      "status": "passed"
+    },
+    {
+      "model_id": "M6",
+      "checkpoint_sha256": "c82403255c495e62c20776ef2158a2a25d88513d1f9c67ecb388c025b0cdf3d0",
+      "scale": 64,
+      "output_shape": [
+        128,
+        192,
+        3
+      ],
+      "runtime_seconds": 0.0165394489999926,
+      "status": "passed"
+    },
+    {
+      "model_id": "M7",
+      "checkpoint_sha256": "5cb8b9f45bc449bc6ff7ba4bf151a5ef1c70c0556d13c3b9f1c625995d7713f3",
+      "scale": 2,
+      "output_shape": [
+        4,
+        6,
+        3
+      ],
+      "runtime_seconds": 0.0016212650000397844,
+      "status": "passed"
+    },
+    {
+      "model_id": "M7",
+      "checkpoint_sha256": "5cb8b9f45bc449bc6ff7ba4bf151a5ef1c70c0556d13c3b9f1c625995d7713f3",
+      "scale": 4,
+      "output_shape": [
+        8,
+        12,
+        3
+      ],
+      "runtime_seconds": 0.0018341050000572068,
+      "status": "passed"
+    },
+    {
+      "model_id": "M7",
+      "checkpoint_sha256": "5cb8b9f45bc449bc6ff7ba4bf151a5ef1c70c0556d13c3b9f1c625995d7713f3",
+      "scale": 8,
+      "output_shape": [
+        16,
+        24,
+        3
+      ],
+      "runtime_seconds": 0.0064098560000047655,
+      "status": "passed"
+    },
+    {
+      "model_id": "M7",
+      "checkpoint_sha256": "5cb8b9f45bc449bc6ff7ba4bf151a5ef1c70c0556d13c3b9f1c625995d7713f3",
+      "scale": 16,
+      "output_shape": [
+        32,
+        48,
+        3
+      ],
+      "runtime_seconds": 0.005055583000057595,
+      "status": "passed"
+    },
+    {
+      "model_id": "M7",
+      "checkpoint_sha256": "5cb8b9f45bc449bc6ff7ba4bf151a5ef1c70c0556d13c3b9f1c625995d7713f3",
+      "scale": 32,
+      "output_shape": [
+        64,
+        96,
+        3
+      ],
+      "runtime_seconds": 0.00936370200008696,
+      "status": "passed"
+    },
+    {
+      "model_id": "M7",
+      "checkpoint_sha256": "5cb8b9f45bc449bc6ff7ba4bf151a5ef1c70c0556d13c3b9f1c625995d7713f3",
+      "scale": 64,
+      "output_shape": [
+        128,
+        192,
+        3
+      ],
+      "runtime_seconds": 0.021649374000048738,
+      "status": "passed"
+    }
+  ],
+  "torch_version": "2.15.0+cpu",
+  "passed": 42
+}

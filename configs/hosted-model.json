@@ -1,0 +1,19 @@
+{
+  "label": "RGB CNN pilot v1 — 100 CPU training steps",
+  "version": "b94966013b046b7f2b8e542d6161786d67e750c0",
+  "checkpoint": {
+    "url": "https://raw.githubusercontent.com/Ahmdullah16/Mini-Project-ML-Lab-RSSR/b94966013b046b7f2b8e542d6161786d67e750c0/artifacts/rgb-pilot-v1.pt",
+    "sha256": "56656672c50c222105cc159738b63957dee84b1ef394106f6dc2c782a53d415e",
+    "max_bytes": 262144
+  },
+  "sample": {
+    "url": "https://raw.githubusercontent.com/Ahmdullah16/Mini-Project-ML-Lab-RSSR/b94966013b046b7f2b8e542d6161786d67e750c0/artifacts/naip-training-lr.png",
+    "sha256": "b74f4daaf333b42349d3d2b61ec610808cf1b1c4a48ed6c70e55ab6b6eea9ca6",
+    "max_bytes": 65536,
+    "acquisition_time": "2021-09-17",
+    "sensor": "NAIP aerial RGB",
+    "source": "OpenSR ROI_00006 training scene; synthetic x2 LR, uint8 display quantization",
+    "license": "NAIP public domain; retain USDA/OpenSR attribution"
+  },
+  "limitations": "Genuine 100-step training pilot, not a validated research model. RGB display only; fixed numerical scaling, physical calibration unverified. Generated detail is not verified ground truth."
+}

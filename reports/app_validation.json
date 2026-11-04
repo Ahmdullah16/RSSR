@@ -1,0 +1,6 @@
+{
+  "command": "RSSR_TEST_REAL_MODELS=1 python -m pytest -q",
+  "outcome": "11 passed",
+  "scope": "Offline numerical/export/query/crop fixtures and Streamlit pages, plus opt-in real hybrid/model-comparison execution from checksum-verified caches.",
+  "hosted_deployment": "Not deployed. Implementation submitted for GitHub pull-request review."
+}

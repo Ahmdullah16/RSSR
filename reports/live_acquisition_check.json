@@ -1,0 +1,83 @@
+{
+  "status": "passed",
+  "shape": [
+    64,
+    64,
+    3
+  ],
+  "scope": "One bounded live Sentinel-2 RGB crop, not SR fidelity validation.",
+  "provenance": {
+    "kind": "live Sentinel-2 query",
+    "provider": "Element 84 Earth Search / public Sentinel COG archive",
+    "collection": "sentinel-2-c1-l2a",
+    "satellite_platform": "sentinel-2b",
+    "constellation": "sentinel-2",
+    "instrument": [
+      "msi"
+    ],
+    "provider_item_id": "S2B_T43RGL_20261104T053705_L2A",
+    "acquisition_time": "2026-11-04T05:41:18.520000Z",
+    "retrieval_utc": "2026-11-04T17:05:05.693652+00:00",
+    "asset_url": "https://e84-earth-search-sentinel-data.s3.us-west-2.amazonaws.com/sentinel-2-c1-l2a/43/R/GL/2026/11/S2B_T43RGL_20261104T053705_L2A/TCI.tif",
+    "bands": "RGB true-color display based on Sentinel-2 B04/B03/B02; provider-stretched uint8, not reflectance",
+    "cloud_cover_percent": 0.003709,
+    "cloud_filter": "Scene-level only; not a pixel cloud mask",
+    "query": {
+      "bbox": [
+        78.035,
+        27.165,
+        78.055,
+        27.185
+      ],
+      "datetime": "2026-08-06T00:00:00Z/2026-11-04T23:59:59Z",
+      "collections": [
+        "sentinel-2-c1-l2a"
+      ],
+      "limit": 1,
+      "sortby": [
+        {
+          "field": "properties.datetime",
+          "direction": "desc"
+        }
+      ],
+      "query": {
+        "eo:cloud_cover": {
+          "lte": 40
+        }
+      }
+    },
+    "crop_note": "Fixed-size native-pixel crop centered on the AOI/scene intersection; not the full AOI extent.",
+    "crop_crs": "EPSG:32643",
+    "crop_transform": [
+      10.0,
+      0.0,
+      801400.0,
+      0.0,
+      -10.0,
+      3009810.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "source_pixel_size_crs_units": [
+      10.0,
+      10.0
+    ],
+    "valid_fraction": 1.0,
+    "invalid_pixel_handling": "Invalid source pixels are displayed black; PNG/JPEG exports do not retain the mask.",
+    "license_links": [],
+    "attribution": "Contains modified Copernicus Sentinel data; Element 84 COG archive",
+    "transfer": {
+      "bytes_received": 2473984,
+      "requests": 2,
+      "budget_bytes": 32000000,
+      "etag": "\"1e61722083e71fdc6458f488b5eb069e-42\"",
+      "source_size": 345106937,
+      "errors": []
+    },
+    "reference_available": false,
+    "calibration": "Display RGB only; no reflectance-calibrated or multispectral processing.",
+    "processing_level": "L2A source (atmospherically corrected); selected visual product is display encoded.",
+    "quality_limitation": "NAIP-trained SR pilots applied cross-sensor; Sentinel reconstruction fidelity unvalidated."
+  }
+}
